@@ -1,16 +1,22 @@
 /* Your styles here */
-body {
+body p {
   text-align: center;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  font-size: 1.2rem;
+  color: #393d41;
 }
-
+body h1 h2 h3 h4 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
 header {
   background-color: black;
   text-align: center;
 }
 .laptopsfondo {
   background-image: url(../images/banner.jpg);
-  background-size: contain;
+  background-size: cover;
 
   padding-top: 3rem;
   padding-bottom: 2rem;
@@ -22,22 +28,28 @@ header {
 h1 {
   color: white;
   padding-bottom: 1rem;
-  font-size: 24px;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 p {
-  font-size: 16px;
   padding-bottom: 1rem;
 }
 .headerh1 {
   color: #34a8c7;
+  font-size: 3rem;
+}
+header img {
+  padding: 3rem;
 }
 #button {
   background-color: #f14c2f;
   color: white;
-  padding: 0.3rem;
+  padding: 0.4rem;
   border-radius: 5px;
   border: none;
-  font-size: 16px;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
 }
 main {
   text-align: center;
@@ -47,6 +59,8 @@ h3 {
   font-size: 18px;
   padding-bottom: 1rem;
   padding-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 .fototonda {
   padding-bottom: 2rem;
@@ -60,6 +74,19 @@ h3 {
 .bloccoarancio {
   background-color: #f14c2f;
   color: white;
+  padding: 2rem;
+}
+.bloccoarancio p {
+  color: white;
+  padding-top: 2rem;
+}
+.Mario {
+  padding-bottom: 0;
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+#ceo {
+  padding-top: 0;
 }
 #schede {
   padding-top: 3rem;
@@ -73,10 +100,24 @@ h3 {
   padding-bottom: 3rem;
   padding-top: 3rem;
   padding: 0;
+  margin-top: 7rem;
+  border-style: solid;
+  border-color: #dee1e3;
+  border-width: 2px;
+}
+#scheda3 {
+  padding-bottom: 3rem;
 }
 
 footer {
   background-color: #25a2c3;
+}
+footer h1 {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
 }
 footer a {
   color: white;
