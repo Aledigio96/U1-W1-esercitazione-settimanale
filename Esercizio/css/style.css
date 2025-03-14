@@ -32,8 +32,12 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
+
 p {
   padding-bottom: 1rem;
+}
+.schedeimg img {
+  max-width: 400px;
 }
 .headerh1 {
   color: #34a8c7;
